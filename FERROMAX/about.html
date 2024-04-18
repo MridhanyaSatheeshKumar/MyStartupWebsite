@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ferromax Foundries</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,700;1,100;1,200;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="img/L2.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT US</a></li>
+                    <li><a href="facilities.html">FACILITIES</a></li>
+                    <li><a href="pro.html">PRODUCTS</a></li>
+                    <li><a href="contact.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>ABOUT US</h1>
+    </section>
+
+<!-- About us content -->
+
+<section class="about-us">
+    <div class="about-col">
+        <h1>FerroMAX Foundries</h1>
+    </div>
+        <div class="about-col">
+            <img src="img/L2.png">
+        </div>
+    <div class="about-col">
+        <ul>
+            <li>Ferromax Foundries India Pvt Ltd (Formerly known as Calmet Industries Pvt Ltd) is an ISO 9001-2008 certified unit that manufactures C.I.Rough Castings (Grey) and SG Iron Castings situated in Coimbatore, Tamilnadu, India.</li><br>
+            <li>Ferromax was promoted by young and energetic entrepreneur Mr. SATHEESHKUMAR R, Director and Mrs. KOUSLYA SATHEESHKUMAR, Director, who have all most 25 years of experience in the foundry field.</li><br>
+            <li>FerroMAX has an added advantage because Coimbatore is the location for its production facilities. Coimbatore is at a good location in terms of both the availability of competent labour and the favourable industrial setting in the town.</li><br>
+            <li>Geographically speaking, the well-known industrial town is perfectly situated to serve both domestic and international markets.</li><br>
+            <li>Coimbatore is mere 180Km from the nearest seaport.</li><br>
+            <li>FERROMAX services various demanding requirements of many valve and pump industries in India and in the developed countries. We have earned reputation for prompt deliveries, superior quality coupled with competitive prices.</li><br>
+            <li>We provide an outstanding customer interface 24 x 7.</li><br>
+            <li>The list of our esteemed Customer includes big and discerning companies. Our capabilities include Product Design, Pattern making, Mould's, Fixture Design, Prototype Sampling and Testing.</li><br>
+            <li>Our company installed capacity is 5000 Tons of Grey and SG Iron Castings per Annum at present. We manufacture 3250 Tons per Annum.</li>
+        </ul>
+    </div>
+</section>
+
+<!-- Welcome -->
+
+<section class="welcome">
+    <h1>Our Mission, Vision and Quality</h1>
+
+    <div class="row">
+        <div class="welcome-col">
+            <h3>MISSION</h3>
+            <p>We strive to make superlative products and projects that satisfies the customer expectation.</p>
+        </div>
+        <div class="welcome-col">
+            <h3>VISION</h3>
+            <p>To be the most successful foundry that meets customer satisfaction with best quality, service and infrastructure.</p>
+        </div>
+        <div class="welcome-col">
+            <h3>QUALITY</h3>
+            <p>We are committed to producing best quality products by strict quality checking from the start till the delivery of the product.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+
+    <section class="footer">
+        <h4>© 2022 <b>FerroMAX Foundries</b></h4>
+    </section>
+
+<!-- Javascript for toggle menu -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
