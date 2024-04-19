@@ -129,6 +129,8 @@ nav .fa{
     }
 }
 
+/* welcome */
+
 .welcome{
     width: 80%;
     margin: auto;
@@ -174,6 +176,8 @@ h3{
         flex-direction: column;
     }
 }
+
+/* why */
 
 .why{
     width: 80%;
@@ -223,7 +227,7 @@ h3{
     opacity: 1;
 }
 
-
+/* Products */
 
 .products{
     width: 100%;
@@ -262,6 +266,8 @@ products-col h3{
         margin: 0 auto;
     }
 }
+/* Contact */
+
 .contact{
     margin: 100px auto;
     width: 80%;
@@ -285,6 +291,7 @@ products-col h3{
     }
 }
 
+/* Footer */
 
 .footer{
     width: 100%;
@@ -296,6 +303,8 @@ products-col h3{
     margin-top: 20px;
     font-weight: 600;
 }
+
+/* About Us Page */
 
 .sub-header{
     height: 50vh;
@@ -330,7 +339,7 @@ products-col h3{
     color: gray;
 }
 
-
+/* Facilities Page*/
 
 table {
     font-family: arial, sans-serif;
@@ -347,6 +356,11 @@ table {
   tr:nth-child(even) {
     background-color: #dddddd;
   }
+
+/* Product page */
+
+
+/* Contact us page*/
 
 .location{
     width: 80%;
